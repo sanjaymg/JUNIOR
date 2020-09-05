@@ -1,0 +1,219 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Karla;
+    font-weight: 400;
+    background-color: rgba(243, 233, 233, 0.384);
+}
+
+.ss {
+    flex: 0 0 50%;
+}
+.sss {
+    flex: 0 0 50%;
+}
+.image {
+    width:380px; 
+    height:auto;
+    margin-bottom: -70px;
+}
+.hh::before {
+    content: " ";
+    background-color: rgba(71, 75, 75, 0.685);
+    width: 100px;
+    height: 3px;
+    position: absolute;
+   margin-top: 50px;
+   margin-left: 20px;
+}
+.image-1 {
+    margin-top: 80px;
+}
+.height {
+    height: 50vh;
+    background-color: aliceblue;
+    width: auto;
+}
+@media all and (max-width : 500px) {
+    
+.ss {
+    flex: 0 0 100%;
+    order: 1;
+   
+  
+}
+.sss {
+    flex: 0 0 100%;
+    order: 2;
+}
+.image {
+    margin-top: 0;
+    width:500px; 
+    height:auto;
+    margin-bottom: 100px;
+}
+.image-1 {
+    margin-top: 0;
+}
+.float-rightt {
+    float: left!important;
+}
+.marg {
+    margin-left: 130px;
+}
+.toop {
+   float: top!important;
+    background-color:wheat;
+}
+ 
+.child {
+   
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 0;
+    background: transparent;
+    font-size: 12px;
+    text-align: center;
+  }
+   
+ .header::after,.header::before {
+     display: none;
+    
+    
+}
+.ccc::after { display: none;}
+.ssss:after { 
+    content: " ";
+    background-image: url(images/bg-pattern-intro-left-mobile.svg) ;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    margin-top: -25%;
+   
+
+}
+.bar {
+    background-color: hsl(276, 4%, 51%)!important;
+    color:#fff!important;
+    
+}
+
+
+.text-lightt {
+    color: rgb(243, 243, 245)!important;
+}
+
+ 
+}
+.card-header {
+    border: 0!important;
+    background-color: transparent!important;
+}
+.card {
+    border: 0!important;
+}
+.deck {
+    flex: 0 0 25%;
+}
+.float-rightt {
+    float: right;
+}
+.card-img-top {
+    width: auto!important;
+}
+.card {
+    border: 0!important;
+    background-color: transparent!important;
+}
+.line::before {
+     content: " ";
+    background-color: rgba(17, 19, 19, 0.219);
+    width: 150px;
+    height: 2px;
+    position: absolute;
+    margin-bottom: 80px;
+    margin-left: 20px;
+   
+
+}
+.display-4 {
+    font-weight: bolder!important;
+    font-family: serif;
+}
+.color {
+    background-color:hsl(256, 26%, 20%);
+    
+}
+.toop {
+    margin-top: 90px;
+}
+#footer-p p {
+    font-size: 12px;
+}
+.display-3 {
+    font-weight: bolder!important;
+    font-family: serif;
+    font-size: 50px!important;
+}
+.intro {
+    background-image: url(images/bg-pattern-intro-left-desktop.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.parent {
+    display: grid;
+    place-items: center;
+    
+    background:hsl(256, 26%, 20%) ;
+    width: 200px;
+    height: auto;
+    
+    resize: both;
+    overflow: auto;
+  }
+  
+  .child {
+   
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-top: 50px;
+    background: transparent;
+    font-size: 12px;
+    text-align: center;
+  }
+  
+ .header::after {
+     content: " ";
+     background-image: url(images/bg-pattern-intro-right-desktop.svg);
+     position: absolute;
+     top: 0;
+     right: 0;
+     width:90%;
+     height: 80%;
+     background-repeat: no-repeat;
+     background-position: top right;
+    top: 10%;
+ }
+   
+
+.ccc::after {
+    content: " ";
+    background-image: url(images/bg-pattern-how-we-work-desktop.svg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: top right;
+  
+}
+.text-lightt {
+    color: rgb(150, 144, 141)!important;
+}
